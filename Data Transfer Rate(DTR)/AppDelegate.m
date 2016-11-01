@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSLog(@"check:%f",[[NSUserDefaults standardUserDefaults]                                                                                                                                                                           doubleForKey:@"PreDownloadData"]);
+    
+   
+    //[[NSUserDefaults standardUserDefaults] setDouble:0 forKey:@"PreUploadData"];
+   
+   // [[NSUserDefaults standardUserDefaults] setDouble:0 forKey:@"PreDownloadData"];
+   // [[NSUserDefaults standardUserDefaults] synchronize];
     return YES;
 }
 
