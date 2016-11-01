@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074778FB1DC88F64004D6457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074778FA1DC88F64004D6457 /* main.m */; };
+		074778FE1DC88F64004D6457 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 074778FD1DC88F64004D6457 /* AppDelegate.m */; };
+		074779011DC88F64004D6457 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074779001DC88F64004D6457 /* ViewController.m */; };
+		074779041DC88F64004D6457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074779021DC88F64004D6457 /* Main.storyboard */; };
+		074779071DC88F64004D6457 /* Data_Transfer_Rate_DTR_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 074779051DC88F64004D6457 /* Data_Transfer_Rate_DTR_.xcdatamodeld */; };
+		074779091DC88F64004D6457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074779081DC88F64004D6457 /* Assets.xcassets */; };
+		0747790C1DC88F64004D6457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0747790A1DC88F64004D6457 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		074778F61DC88F64004D6457 /* Data Transfer Rate(DTR).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Data Transfer Rate(DTR).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		074778FA1DC88F64004D6457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		074778FC1DC88F64004D6457 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		074778FD1DC88F64004D6457 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		074778FF1DC88F64004D6457 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		074779001DC88F64004D6457 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		074779031DC88F64004D6457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		074779061DC88F64004D6457 /* Data_Transfer_Rate_DTR_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data_Transfer_Rate_DTR_.xcdatamodel; sourceTree = "<group>"; };
+		074779081DC88F64004D6457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0747790B1DC88F64004D6457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0747790D1DC88F64004D6457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074778F31DC88F64004D6457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074778ED1DC88F64004D6457 = {
+			isa = PBXGroup;
+			children = (
+				074778F81DC88F64004D6457 /* Data Transfer Rate(DTR) */,
+				074778F71DC88F64004D6457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074778F71DC88F64004D6457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074778F61DC88F64004D6457 /* Data Transfer Rate(DTR).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074778F81DC88F64004D6457 /* Data Transfer Rate(DTR) */ = {
+			isa = PBXGroup;
+			children = (
+				074778FC1DC88F64004D6457 /* AppDelegate.h */,
+				074778FD1DC88F64004D6457 /* AppDelegate.m */,
+				074778FF1DC88F64004D6457 /* ViewController.h */,
+				074779001DC88F64004D6457 /* ViewController.m */,
+				074779021DC88F64004D6457 /* Main.storyboard */,
+				074779081DC88F64004D6457 /* Assets.xcassets */,
+				0747790A1DC88F64004D6457 /* LaunchScreen.storyboard */,
+				0747790D1DC88F64004D6457 /* Info.plist */,
+				074779051DC88F64004D6457 /* Data_Transfer_Rate_DTR_.xcdatamodeld */,
+				074778F91DC88F64004D6457 /* Supporting Files */,
+			);
+			path = "Data Transfer Rate(DTR)";
+			sourceTree = "<group>";
+		};
+		074778F91DC88F64004D6457 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				074778FA1DC88F64004D6457 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074778F51DC88F64004D6457 /* Data Transfer Rate(DTR) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074779101DC88F64004D6457 /* Build configuration list for PBXNativeTarget "Data Transfer Rate(DTR)" */;
+			buildPhases = (
+				074778F21DC88F64004D6457 /* Sources */,
+				074778F31DC88F64004D6457 /* Frameworks */,
+				074778F41DC88F64004D6457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Data Transfer Rate(DTR)";
+			productName = "Data Transfer Rate(DTR)";
+			productReference = 074778F61DC88F64004D6457 /* Data Transfer Rate(DTR).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074778EE1DC88F64004D6457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AppsInception;
+				TargetAttributes = {
+					074778F51DC88F64004D6457 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7VT6555VUS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 074778F11DC88F64004D6457 /* Build configuration list for PBXProject "Data Transfer Rate(DTR)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 074778ED1DC88F64004D6457;
+			productRefGroup = 074778F71DC88F64004D6457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074778F51DC88F64004D6457 /* Data Transfer Rate(DTR) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074778F41DC88F64004D6457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0747790C1DC88F64004D6457 /* LaunchScreen.storyboard in Resources */,
+				074779091DC88F64004D6457 /* Assets.xcassets in Resources */,
+				074779041DC88F64004D6457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074778F21DC88F64004D6457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074779011DC88F64004D6457 /* ViewController.m in Sources */,
+				074779071DC88F64004D6457 /* Data_Transfer_Rate_DTR_.xcdatamodeld in Sources */,
+				074778FE1DC88F64004D6457 /* AppDelegate.m in Sources */,
+				074778FB1DC88F64004D6457 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		074779021DC88F64004D6457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074779031DC88F64004D6457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0747790A1DC88F64004D6457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0747790B1DC88F64004D6457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0747790E1DC88F64004D6457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0747790F1DC88F64004D6457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		074779111DC88F64004D6457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VT6555VUS;
+				INFOPLIST_FILE = "Data Transfer Rate(DTR)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsInception.Data-Transfer-Rate-DTR-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		074779121DC88F64004D6457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VT6555VUS;
+				INFOPLIST_FILE = "Data Transfer Rate(DTR)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsInception.Data-Transfer-Rate-DTR-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074778F11DC88F64004D6457 /* Build configuration list for PBXProject "Data Transfer Rate(DTR)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0747790E1DC88F64004D6457 /* Debug */,
+				0747790F1DC88F64004D6457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074779101DC88F64004D6457 /* Build configuration list for PBXNativeTarget "Data Transfer Rate(DTR)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074779111DC88F64004D6457 /* Debug */,
+				074779121DC88F64004D6457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		074779051DC88F64004D6457 /* Data_Transfer_Rate_DTR_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				074779061DC88F64004D6457 /* Data_Transfer_Rate_DTR_.xcdatamodel */,
+			);
+			currentVersion = 074779061DC88F64004D6457 /* Data_Transfer_Rate_DTR_.xcdatamodel */;
+			path = Data_Transfer_Rate_DTR_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 074778EE1DC88F64004D6457 /* Project object */;
+}
